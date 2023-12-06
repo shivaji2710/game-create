@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: open Sans;
+    /* font-family: sans-serif; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(153, 208, 153);
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius:10px;
+    background-color: aliceblue;
+    /* background-color: red; */
+}
+
+#ptop{
+    font-size: 12px;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    color: aliceblue;
+    background-color: gray;
+    padding: 0 30%;
+
+    justify-content: space-between;
+}
+#elem{
+    /* width: 10%; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#box{
+    padding: 10px 15px;
+    color: black;
+    font-weight:900;
+    font-family: open Sans;
+    font-size: 13px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#pbottom{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    height: calc(100% - 60px);
+    /* background-color: black; */
+}
+#bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+#elem h2{
+    font-weight: 900;
+    margin-left: 1.3vw;
+}
+
+#bubble:hover{
+    background-color: rgb(169, 25, 25);
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
